@@ -1,0 +1,93 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: borer-box;
+}
+
+header {
+    width: 100%;
+    min-height: 100vh;
+    font-family: serif;
+    position: relative;
+}
+
+nav {
+    position: absolute;
+    top: 0;
+    z-index: 99;
+    width: 75%;
+    height: 100 px;
+    background: rgb(245, 123, 123);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 70px;
+}
+
+.logo {
+    font-size: 2em;
+    letter-spacing: 2px;
+}
+
+.logo span {
+    color: #6b2ecc;
+
+}
+
+.Menu a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
+
+.Menu a:first-child {
+    color: #6b2ecc;
+}
+
+.Menu a:hover {
+    color: #6b2ecc;
+}
+
+.icons i {
+    margin: 0 10px;
+    font-size: 20px;
+    color: black;
+    padding: 15px;
+    border: 1px solid grey;
+    transition: 0.4s;
+}
+
+.icons i:hover {
+    background: #6b2ecc;
+    color: rgb(190, 226, 132);
+}
+
+#furniture {
+    max-width: 2500px;
+    position: absolute;
+    bottom: 5%;
+    right: 10%;
+
+}
+
+.htext {
+    position: absolute;
+    top: 30%;
+    left: 5%;
+    max-width: 600px;
+    z-index: 99;
+    background: rgba(255, 255, 255, 0.2);
+
+}
+
+.htext h1 {
+    font-size: 4em;
+    font-family: 'Playfair Display', serif;
+}
+
+.htext h1 span {
+    color: #6b2ecc;
+    text-shadow: 2px 3px 5px rgb(15, 216, 132);
+}
